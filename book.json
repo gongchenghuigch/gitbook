@@ -1,0 +1,24 @@
+{
+  "plugins": [
+    "toggle-chapters",
+    "favicon",
+    "anchor-navigation-ex",
+    "tbfed-pagefooter"
+  ],
+  "_comment": {
+      "plugins":{
+        "toggle-chapters":"目录折叠",
+        "anchor-navigation-ex":"添加Toc到侧边悬浮导航以及回到顶部按钮",
+        "splitter":"使侧边栏的宽度可以自由调节",
+        "theme-default":"将 showLevel 设为 true， 就可以显示标题前面的数字索引，默认不显示",
+        "mermaid":"支持渲染Mermaid图表 "
+      }
+  },
+  "pluginsConfig": {
+      "tbfed-pagefooter": {
+          "copyright":"Copyright &copy gongchenghui 2018",
+          "modify_label": "文件修订时间：",
+          "modify_format": "YYYY-MM-DD HH:mm:ss"
+      }
+  }
+}

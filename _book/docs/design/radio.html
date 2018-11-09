@@ -1,0 +1,1002 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>单选组件 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-toggle-chapters/toggle.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="checkbox.html" />
+    
+    
+    <link rel="prev" href="../design.html" />
+    
+
+    
+    
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    项目简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../快速开始.html">
+            
+                <a href="../快速开始.html">
+            
+                    
+                    快速开始
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../system/环境搭建.html">
+            
+                <a href="../system/环境搭建.html">
+            
+                    
+                    环境搭建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../system/环境搭建Android.html">
+            
+                <a href="../system/环境搭建Android.html">
+            
+                    
+                    环境搭建Android
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../system/本地开发.html">
+            
+                <a href="../system/本地开发.html">
+            
+                    
+                    本地开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../system/平台部署及使用方法使用.html">
+            
+                <a href="../system/平台部署及使用方法使用.html">
+            
+                    
+                    部署热更新平台
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.4.1" data-path="../system/hotupdatesystem/RN资源管理.html">
+            
+                <a href="../system/hotupdatesystem/RN资源管理.html">
+            
+                    
+                    RN资源管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.2" data-path="../system/hotupdatesystem/RN资源构建.html">
+            
+                <a href="../system/hotupdatesystem/RN资源构建.html">
+            
+                    
+                    RN资源构建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.3" data-path="../system/hotupdatesystem/RN资源同步.html">
+            
+                <a href="../system/hotupdatesystem/RN资源同步.html">
+            
+                    
+                    RN资源同步
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.4" data-path="../system/hotupdatesystem/RN项目回滚.html">
+            
+                <a href="../system/hotupdatesystem/RN项目回滚.html">
+            
+                    
+                    RN项目回滚
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.5" data-path="../system/hotupdatesystem/RN真机预览.html">
+            
+                <a href="../system/hotupdatesystem/RN真机预览.html">
+            
+                    
+                    RN真机预览
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../design.html">
+            
+                <a href="../design.html">
+            
+                    
+                    RN自定义组件库
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.3.1" data-path="radio.html">
+            
+                <a href="radio.html">
+            
+                    
+                    单选组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="checkbox.html">
+            
+                <a href="checkbox.html">
+            
+                    
+                    多选选组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="DatePicker.html">
+            
+                <a href="DatePicker.html">
+            
+                    
+                    时间选择组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="Swiper.html">
+            
+                <a href="Swiper.html">
+            
+                    
+                    轮播组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="PickerView.html">
+            
+                <a href="PickerView.html">
+            
+                    
+                    PickerView组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../app.html">
+            
+                <a href="../app.html">
+            
+                    
+                    RN交互协议
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../app/jumpToH5.html">
+            
+                <a href="../app/jumpToH5.html">
+            
+                    
+                    跳转H5页面
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../app/jumpToNative.html">
+            
+                <a href="../app/jumpToNative.html">
+            
+                    
+                    跳转Native页面
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../app/jumpToRn.html">
+            
+                <a href="../app/jumpToRn.html">
+            
+                    
+                    跳转RN页面
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../app/toast.html">
+            
+                <a href="../app/toast.html">
+            
+                    
+                    轻提示toast
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../app/loading.html">
+            
+                <a href="../app/loading.html">
+            
+                    
+                    页面loading
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../app/dialog.html">
+            
+                <a href="../app/dialog.html">
+            
+                    
+                    对话框dialog
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../app/setWebLog.html">
+            
+                <a href="../app/setWebLog.html">
+            
+                    
+                    埋点协议
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="../app/request.html">
+            
+                <a href="../app/request.html">
+            
+                    
+                    网络请求
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../RNInduction/homePage.html">
+            
+                <a href="../RNInduction/homePage.html">
+            
+                    
+                    RN知识点归纳
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../RNInduction/basis.html">
+            
+                <a href="../RNInduction/basis.html">
+            
+                    
+                    RN入门开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../RNInduction/router.html">
+            
+                <a href="../RNInduction/router.html">
+            
+                    
+                    RN路由
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../RNInduction/protocol.html">
+            
+                <a href="../RNInduction/protocol.html">
+            
+                    
+                    RN渲染通信机制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../RNInduction/Mnager.html">
+            
+                <a href="../RNInduction/Mnager.html">
+            
+                    
+                    RN交互管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../RNInduction/FlatList.html">
+            
+                <a href="../RNInduction/FlatList.html">
+            
+                    
+                    FlatList使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../feedback/feedback.html">
+            
+                <a href="../feedback/feedback.html">
+            
+                    
+                    问题反馈
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../feedback/question.html">
+            
+                <a href="../feedback/question.html">
+            
+                    
+                    RN问题记录
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >单选组件</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="radio&#x5355;&#x9009;&#x6846;"><a name="radio&#x5355;&#x9009;&#x6846;" class="anchor-navigation-ex-anchor" href="#radio&#x5355;&#x9009;&#x6846;"><i class="fa fa-link" aria-hidden="true"></i></a>Radio&#x5355;&#x9009;&#x6846;</h2>
+<h2 id="1&#x3001;&#x529F;&#x80FD;&#x8BF4;&#x660E;"><a name="1&#x3001;&#x529F;&#x80FD;&#x8BF4;&#x660E;" class="anchor-navigation-ex-anchor" href="#1&#x3001;&#x529F;&#x80FD;&#x8BF4;&#x660E;"><i class="fa fa-link" aria-hidden="true"></i></a>1&#x3001;&#x529F;&#x80FD;&#x8BF4;&#x660E;</h2>
+<p>&#x7528;&#x4E8E;&#x5728;&#x591A;&#x4E2A;&#x5907;&#x9009;&#x9879;&#x4E2D;&#x9009;&#x4E2D;&#x5355;&#x4E2A;&#x72B6;&#x6001;&#x3002;</p>
+<p>Radio &#x6240;&#x6709;&#x9009;&#x9879;&#x9ED8;&#x8BA4;&#x53EF;&#x89C1;&#xFF0C;&#x65B9;&#x4FBF;&#x7528;&#x6237;&#x5728;&#x6BD4;&#x8F83;&#x4E2D;&#x9009;&#x62E9;&#xFF0C;&#x56E0;&#x6B64;&#x9009;&#x9879;&#x4E0D;&#x5B9C;&#x8FC7;&#x591A;</p>
+<h2 id="2&#x3001;&#x7EC4;&#x4EF6;&#x6548;&#x679C;"><a name="2&#x3001;&#x7EC4;&#x4EF6;&#x6548;&#x679C;" class="anchor-navigation-ex-anchor" href="#2&#x3001;&#x7EC4;&#x4EF6;&#x6548;&#x679C;"><i class="fa fa-link" aria-hidden="true"></i></a>2&#x3001;&#x7EC4;&#x4EF6;&#x6548;&#x679C;</h2>
+<p><img src="https://img.58cdn.com.cn/escstatic/fecar/pmuse/reactnative/radio1.png" width="375"></p>
+<h2 id="3&#x3001;&#x4EE3;&#x7801;&#x6F14;&#x793A;"><a name="3&#x3001;&#x4EE3;&#x7801;&#x6F14;&#x793A;" class="anchor-navigation-ex-anchor" href="#3&#x3001;&#x4EE3;&#x7801;&#x6F14;&#x793A;"><i class="fa fa-link" aria-hidden="true"></i></a>3&#x3001;&#x4EE3;&#x7801;&#x6F14;&#x793A;</h2>
+<pre><code>import React, { Component } from &quot;react&quot;;
+import { Alert, View, Text, StyleSheet, TouchableOpacity, Image, ScrollView } from &quot;react-native&quot;;
+import { Radio } from &quot;@/rn-design&quot;;
+const RadioButton = Radio.Button;
+const styles = StyleSheet.create({
+    content: {
+        flexDirection: &quot;row&quot;,
+        alignItems: &quot;center&quot;,
+        paddingHorizontal: 15,
+        backgroundColor: &quot;#fff&quot;,
+        justifyContent: &quot;space-between&quot;
+    },
+    radioContent: {
+        flexDirection: &quot;row&quot;,
+        alignItems: &quot;center&quot;
+    },
+    innerStyle: {
+        height: 50
+    }
+});
+
+export default class DemoTest extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            radioData: [
+                { content: &quot;&#x5546;&#x5BB6;&#x8BC4;&#x5206;&quot;, value: &quot;1&quot;, disabled: false },
+                { content: &quot;&#x4E2A;&#x4EBA;&#x8BC4;&#x5206;&quot;, value: &quot;2&quot;, disabled: false }
+            ],
+            selected: 2
+        };
+    }
+
+    componentDidMount() {}
+
+    render() {
+        // console.log(RadioButton);
+        return (
+            &lt;View&gt;
+                &lt;View style={styles.content}&gt;
+                    &lt;View&gt;
+                        &lt;Text&gt;&#x6D4B;&#x8BD5;Radio&lt;/Text&gt;
+                    &lt;/View&gt;
+                    &lt;Radio
+                        style={styles.radioContent}
+                        dataOption={this.state.radioData}
+                        options={{ value: &quot;value&quot;, text: &quot;content&quot;, disabled: &quot;disabled&quot; }}
+                        selectedValue={this.state.selected}
+                        disabledAll={false}
+                        innerStyle={styles.innerStyle}
+                        onChange={(item) =&gt; {
+                            console.log(item);
+                        }}
+                        // txtColor=&quot;#ff552e&quot;
+                    /&gt;
+                &lt;/View&gt;
+                {/* &lt;RadioButton /&gt; */}
+            &lt;/View&gt;
+        );
+    }
+}
+</code></pre><h2 id="4&#x3001;api"><a name="4&#x3001;api" class="anchor-navigation-ex-anchor" href="#4&#x3001;api"><i class="fa fa-link" aria-hidden="true"></i></a>4&#x3001;API</h2>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;</th>
+<th>&#x8BF4;&#x660E;</th>
+<th>&#x7C7B;&#x578B;</th>
+<th>&#x9ED8;&#x8BA4;&#x503C;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>style</td>
+<td>&#x5F53;&#x524D;Radio group&#x7684;&#x7236;&#x7EA7;&#x6837;&#x5F0F;</td>
+<td>object</td>
+<td>&#x65E0;</td>
+</tr>
+<tr>
+<td>dataOption</td>
+<td>Radio&#x6E32;&#x67D3;&#x5F53;&#x524D;Radio&#x7684;&#x6570;&#x636E;</td>
+<td>array</td>
+<td>&#x65E0;</td>
+</tr>
+<tr>
+<td>options</td>
+<td>&#x5339;&#x914D;Radio&#x7EC4;&#x4EF6;&#x6E32;&#x67D3;&#x65F6;&#x7684;text&#x548C;value&#x503C;&#xFF08;&#x5FC5;&#x586B;&#xFF09;<br>{<br> value:&quot;&#x5BF9;&#x5E94;dataOption&#x4E2D;&#x786E;&#x5B9A;&#x5F53;&#x524D;&#x552F;&#x4E00;&#x6807;&#x8BC6;&#x7684;key&quot;,<br>text:&quot;&#x5BF9;&#x5E94;dataOption&#x4E2D;&#x8981;&#x5C55;&#x793A;&#x7684;&#x6587;&#x6848;&quot;,<br>disabled:&quot;&#x5BF9;&#x5E94;dataOption&#x4E2D;&#x5F53;&#x524D;&#x9009;&#x4E2D;&#x662F;&#x5426;&#x7981;&#x7528;&#x7684;&#x6807;&#x8BC6;&#xFF0C;&#x5982;&#x679C;dataOption&#x4E2D;&#x6CA1;&#x6709;&#x6539;&#x5C5E;&#x6027;&#xFF0C;&#x9ED8;&#x8BA4;&#x5168;&#x90E8;&#x662F;false&#xFF0C;radio&#x65E0;&#x7981;&#x7528;&#x72B6;&#x6001;&quot;<br>}</td>
+<td>object</td>
+<td>&#x65E0;</td>
+</tr>
+<tr>
+<td>selectedValue</td>
+<td>&#x7528;&#x4E8E;&#x8BBE;&#x7F6E;&#x5F53;&#x524D;&#x9009;&#x4E2D;&#x7684;&#x503C;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x8BBE;&#x7F6E;&#x9ED8;&#x8BA4;&#x503C;</td>
+<td>any</td>
+<td>&#x65E0;</td>
+</tr>
+<tr>
+<td>disabledAll</td>
+<td>&#x662F;&#x5426;&#x7981;&#x7528;&#x5168;&#x90E8;Radio</td>
+<td>boolean</td>
+<td>false</td>
+</tr>
+<tr>
+<td>seledImg</td>
+<td>Radio&#x9009;&#x4E2D;&#x56FE;&#x6807; &#x4F20;&#x503C;&#x793A;&#x4F8B;&#xFF1A;{uri:&quot;....&quot;} &#x4E0D;&#x652F;&#x6301;&#x672C;&#x5730;&#x56FE;&#x7247;</td>
+<td>object</td>
+<td>-</td>
+</tr>
+<tr>
+<td>selImg</td>
+<td>Radio&#x672A;&#x9009;&#x4E2D;&#x56FE;&#x6807; &#x4F20;&#x503C;&#x793A;&#x4F8B;&#xFF1A;{uri:&quot;....&quot;} &#x4E0D;&#x652F;&#x6301;&#x672C;&#x5730;&#x56FE;&#x7247;</td>
+<td>object</td>
+<td>-</td>
+</tr>
+<tr>
+<td>innerStyle</td>
+<td>&#x5355;&#x4E2A;Radio&#x6837;&#x5F0F;&#x6A21;&#x5757;</td>
+<td>Object</td>
+<td>-</td>
+</tr>
+<tr>
+<td>txtColor</td>
+<td>Radio&#x6587;&#x6848;&#x989C;&#x8272;</td>
+<td>string</td>
+<td>-</td>
+</tr>
+<tr>
+<td>onChange</td>
+<td>&#x9009;&#x9879;&#x53D8;&#x5316;&#x65F6;&#x7684;&#x56DE;&#x8C03;&#x51FD;&#x6570;</td>
+<td>function</td>
+<td>&#x65E0;</td>
+</tr>
+</tbody>
+</table>
+<h2 id="radiobutton"><a name="radiobutton" class="anchor-navigation-ex-anchor" href="#radiobutton"><i class="fa fa-link" aria-hidden="true"></i></a>RadioButton</h2>
+<h2 id="1&#x3001;&#x7EC4;&#x4EF6;&#x6548;&#x679C;"><a name="1&#x3001;&#x7EC4;&#x4EF6;&#x6548;&#x679C;" class="anchor-navigation-ex-anchor" href="#1&#x3001;&#x7EC4;&#x4EF6;&#x6548;&#x679C;"><i class="fa fa-link" aria-hidden="true"></i></a>1&#x3001;&#x7EC4;&#x4EF6;&#x6548;&#x679C;</h2>
+<p><img src="https://img.58cdn.com.cn/escstatic/fecar/pmuse/reactnative/radio.png" width="375"></p>
+<h2 id="2&#x3001;&#x4EE3;&#x7801;&#x6F14;&#x793A;"><a name="2&#x3001;&#x4EE3;&#x7801;&#x6F14;&#x793A;" class="anchor-navigation-ex-anchor" href="#2&#x3001;&#x4EE3;&#x7801;&#x6F14;&#x793A;"><i class="fa fa-link" aria-hidden="true"></i></a>2&#x3001;&#x4EE3;&#x7801;&#x6F14;&#x793A;</h2>
+<pre><code>import React, { Component } from &quot;react&quot;;
+import { Alert, View, Text, StyleSheet, TouchableOpacity, Image, ScrollView } from &quot;react-native&quot;;
+import { Radio } from &quot;@/rn-design&quot;;
+const RadioButton = Radio.Button;
+const styles = StyleSheet.create({
+    content: {
+        // flexDirection: &quot;row&quot;,
+        // alignItems: &quot;center&quot;,
+        paddingHorizontal: 15,
+        backgroundColor: &quot;#fff&quot;
+        // justifyContent: &quot;space-between&quot;
+    },
+    radioContent: {
+        flexDirection: &quot;row&quot;,
+        alignItems: &quot;center&quot;
+    },
+    innerStyle: {
+        height: 50
+    }
+});
+
+export default class DemoTest extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            radioBtn: [
+                { text: &quot;&#x4E0D;&#x9650;&quot;, value: &quot;0&quot; },
+                { text: &quot;1&#x4E07;&#x516C;&#x91CC;&#x5185;&quot;, value: &quot;0_1&quot; },
+                { text: &quot;3&#x4E07;&#x516C;&#x91CC;&#x5185;&quot;, value: &quot;0_3&quot; },
+                { text: &quot;5&#x4E07;&#x516C;&#x91CC;&#x5185;&quot;, value: &quot;0_5&quot; },
+                { text: &quot;8&#x4E07;&#x516C;&#x91CC;&#x5185;&quot;, value: &quot;0_8&quot; }
+            ],
+            selected: &quot;0_1&quot;
+        };
+    }
+
+    componentDidMount() {}
+
+    render() {
+        return (
+            &lt;View&gt;
+                &lt;View style={styles.content}&gt;
+                    &lt;View style={{ height: 45, justifyContent: &quot;center&quot; }}&gt;
+                        &lt;Text&gt;&#x6D4B;&#x8BD5;Radio&lt;/Text&gt;
+                    &lt;/View&gt;
+                    &lt;RadioButton
+                        dataOption={this.state.radioBtn}
+                        options={{ value: &quot;value&quot;, text: &quot;text&quot;, disabled: &quot;disabled&quot; }}
+                        selectedValue={this.state.selected}
+                        onChange={(item) =&gt; {
+                            console.log(item);
+                        }}
+                        size={[78, 37]}
+                        // seledImg={require(&quot;./../img/filter/9@3x.png&quot;)}
+                    /&gt;
+                &lt;/View&gt;
+            &lt;/View&gt;
+        );
+    }
+}
+</code></pre><h2 id="3&#x3001;api"><a name="3&#x3001;api" class="anchor-navigation-ex-anchor" href="#3&#x3001;api"><i class="fa fa-link" aria-hidden="true"></i></a>3&#x3001;API</h2>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;</th>
+<th>&#x8BF4;&#x660E;</th>
+<th>&#x7C7B;&#x578B;</th>
+<th>&#x9ED8;&#x8BA4;&#x503C;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>dataOption</td>
+<td>Radio&#x6E32;&#x67D3;&#x5F53;&#x524D;Radio&#x7684;&#x6570;&#x636E;</td>
+<td>array</td>
+<td>&#x65E0;</td>
+</tr>
+<tr>
+<td>options</td>
+<td>&#x5339;&#x914D;Radio&#x7EC4;&#x4EF6;&#x6E32;&#x67D3;&#x65F6;&#x7684;text&#x548C;value&#x503C;&#xFF08;&#x5FC5;&#x586B;&#xFF09;<br>{<br> value:&quot;&#x5BF9;&#x5E94;dataOption&#x4E2D;&#x786E;&#x5B9A;&#x5F53;&#x524D;&#x552F;&#x4E00;&#x6807;&#x8BC6;&#x7684;key&quot;,<br>text:&quot;&#x5BF9;&#x5E94;dataOption&#x4E2D;&#x8981;&#x5C55;&#x793A;&#x7684;&#x6587;&#x6848;&quot;,<br>disabled:&quot;&#x5BF9;&#x5E94;dataOption&#x4E2D;&#x5F53;&#x524D;&#x9009;&#x4E2D;&#x662F;&#x5426;&#x7981;&#x7528;&#x7684;&#x6807;&#x8BC6;&#xFF0C;&#x5982;&#x679C;dataOption&#x4E2D;&#x6CA1;&#x6709;&#x6539;&#x5C5E;&#x6027;&#xFF0C;&#x9ED8;&#x8BA4;&#x5168;&#x90E8;&#x662F;false&#xFF0C;radio&#x65E0;&#x7981;&#x7528;&#x72B6;&#x6001;&quot;<br>}</td>
+<td>object</td>
+<td>&#x65E0;</td>
+</tr>
+<tr>
+<td>selectedValue</td>
+<td>&#x7528;&#x4E8E;&#x8BBE;&#x7F6E;&#x5F53;&#x524D;&#x9009;&#x4E2D;&#x7684;&#x503C;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x8BBE;&#x7F6E;&#x9ED8;&#x8BA4;&#x503C;</td>
+<td>any</td>
+<td>&#x65E0;</td>
+</tr>
+<tr>
+<td>disabledAll</td>
+<td>&#x662F;&#x5426;&#x7981;&#x7528;&#x5168;&#x90E8;Radio</td>
+<td>boolean</td>
+<td>false</td>
+</tr>
+<tr>
+<td>seledImg</td>
+<td>Radio&#x9009;&#x4E2D;&#x56FE;&#x6807; &#x4F20;&#x503C;&#x793A;&#x4F8B;&#xFF1A;{uri:&quot;....&quot;} &#x4E0D;&#x652F;&#x6301;&#x672C;&#x5730;&#x56FE;&#x7247;</td>
+<td>object</td>
+<td>-</td>
+</tr>
+<tr>
+<td>onChange</td>
+<td>&#x9009;&#x9879;&#x53D8;&#x5316;&#x65F6;&#x7684;&#x56DE;&#x8C03;&#x51FD;&#x6570;</td>
+<td>function</td>
+<td>&#x65E0;</td>
+</tr>
+<tr>
+<td>txtColor</td>
+<td>Radio&#x5B57;&#x4F53;&#x989C;&#x8272;</td>
+<td>string</td>
+<td>&quot;#555555&quot;</td>
+</tr>
+<tr>
+<td>activeTxtColor</td>
+<td>Radio&#x9009;&#x4E2D;&#x5B57;&#x4F53;&#x989C;&#x8272;</td>
+<td>string</td>
+<td>&quot;#FF552E&quot;</td>
+</tr>
+<tr>
+<td>backgroundColor</td>
+<td>Radio&#x6309;&#x94AE;&#x5757;&#x80CC;&#x666F;&#x989C;&#x8272;</td>
+<td>string</td>
+<td>&quot;#F6F6F6&quot;</td>
+</tr>
+<tr>
+<td>activeBackgroundColor</td>
+<td>Radio&#x6309;&#x94AE;&#x5757;&#x9009;&#x4E2D;&#x80CC;&#x666F;&#x989C;&#x8272;</td>
+<td>string</td>
+<td>&quot;#FFEFEB&quot;</td>
+</tr>
+<tr>
+<td>size</td>
+<td>Radio&#x6309;&#x94AE;&#x5757;&#x5927;&#x5C0F; &#x5982;[80,38]</td>
+<td>int[]</td>
+<td>[78,37]</td>
+</tr>
+</tbody>
+</table>
+<footer class="page-footer"><span class="copyright">Copyright &#xA9; gongchenghui 2018 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2018-11-01 11:09:12
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../design.html" class="navigation navigation-prev " aria-label="Previous page: RN自定义组件库">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="checkbox.html" class="navigation navigation-next " aria-label="Next page: 多选选组件">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"单选组件","level":"1.3.1","depth":2,"next":{"title":"多选选组件","level":"1.3.2","depth":2,"path":"docs/design/checkbox.md","ref":"docs/design/checkbox.md","articles":[]},"previous":{"title":"RN自定义组件库","level":"1.3","depth":1,"path":"docs/design.md","ref":"docs/design.md","articles":[{"title":"单选组件","level":"1.3.1","depth":2,"path":"docs/design/radio.md","ref":"docs/design/radio.md","articles":[]},{"title":"多选选组件","level":"1.3.2","depth":2,"path":"docs/design/checkbox.md","ref":"docs/design/checkbox.md","articles":[]},{"title":"时间选择组件","level":"1.3.3","depth":2,"path":"docs/design/DatePicker.md","ref":"docs/design/DatePicker.md","articles":[]},{"title":"轮播组件","level":"1.3.4","depth":2,"path":"docs/design/Swiper.md","ref":"docs/design/Swiper.md","articles":[]},{"title":"PickerView组件","level":"1.3.5","depth":2,"path":"docs/design/PickerView.md","ref":"docs/design/PickerView.md","articles":[]}]},"dir":"ltr"},"config":{"_comment":{"plugins":{"toggle-chapters":"目录折叠","anchor-navigation-ex":"添加Toc到侧边悬浮导航以及回到顶部按钮","splitter":"使侧边栏的宽度可以自由调节","theme-default":"将 showLevel 设为 true， 就可以显示标题前面的数字索引，默认不显示","mermaid":"支持渲染Mermaid图表 "}},"plugins":["toggle-chapters","favicon","anchor-navigation-ex","tbfed-pagefooter"],"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy gongchenghui 2018","modify_label":"文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":true},"favicon":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"toggle-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"docs/design/radio.md","mtime":"2018-11-01T03:09:12.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-11-07T10:07:39.637Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-toggle-chapters/toggle.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
